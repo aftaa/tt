@@ -15,12 +15,12 @@ ini_set('display_errors', '1');
 */
 
 /**
- * @see http://tt.aftaa.ru/
+ * @see http://tt.aftaa.ru/task1.php
  *
- * @param $s
+ * @param string $s
  * @return bool
  */
-function checkBraces($s): bool
+function checkBraces(string $s): bool
 {
     $braces = str_split($s);
     $close2open = [
